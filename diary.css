@@ -1,21 +1,24 @@
 body {
-    background-color: bisque;
+    background-color: rgb(201, 154, 223);
     margin: 0;
     padding: 0;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
+/*-------------------------------------------------------------------------------*/
+/*-------------------------------------------------------------------------------*/
+
 header {
-    background-color: #07d3ee;
+    background-color: #07aff1;
     padding: 10px 0;
     text-align: center;
-    color: #082024
+    color: #601aa1
 }
 
 nav ul {
-    background-color: #af8181;
+    background-color: #2f16c0;
     padding: 0;
-    margin: 0;
+    margin: 5;
     text-align: center;
     list-style-type: none;
     overflow: hidden;
@@ -26,7 +29,7 @@ nav li {
 }
 
 a:hover {
-    background-color: aqua;
+    background-color: rgb(230, 138, 233);
 }
 
 nav a {
@@ -40,8 +43,10 @@ a {
     transition: 0.5s;
 }
 
+/*-------------------------------------------------------------------------------*/
+/*-------------------------------------------------------------------------------*/
 date {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 main {
@@ -53,14 +58,14 @@ main {
 article {
     margin: 0;
     padding: 30px;
-    background-color: rgb(55, 212, 212);
-    border-bottom: 2px solid #000;
-    border-top: 2px solid #000;
-    border-left: 2px solid #000;
-    border-right: 2px solid #000;
+    background-color: rgb(204, 168, 211);
+    border: 2px solid #830fa7;
     padding-bottom: 5px;
     margin-block: 10px;
-    box-shadow: 1px 1px 10px #1a1894;
+    box-shadow: 1px 1px 20px #38044d;
+}
+h2   {
+    color: #601aa1
 }
 
 figure img {
@@ -73,7 +78,7 @@ figcaption {
 }
 
 footer {
-    background-color: #af8181;
+    background-color: #2f16c0;
     color: rgb(187, 171, 29);
     text-align: center;
     padding: 10px 0;
